@@ -7,8 +7,8 @@ class UserManager:
         conn = sqlite3.connect("users.db")
         query = f"SELECT * FROM users WHERE username='{username}'"
         result = conn.execute(query)
-        for row in result:
-            print(row)
+        for r in result:
+            print(r)
         return result
 
 
