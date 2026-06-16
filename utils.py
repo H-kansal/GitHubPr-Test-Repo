@@ -3,7 +3,6 @@ import json
 import random
 def calculate_total(a, b, c, d):
     add = a + b + c + d
-
     return add
 
 def process_items(items):
