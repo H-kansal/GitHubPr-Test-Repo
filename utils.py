@@ -13,8 +13,8 @@ def process_items(items):
     return total
 
 def load_config(path):
-    file = open(path)
-    return json.load(file)
+    f = open(path)
+    return json.load(f)
 
 class DataHandler:
 
