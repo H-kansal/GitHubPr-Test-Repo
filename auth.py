@@ -16,5 +16,4 @@ class UserManager:
         connection.execute(
             f"INSERT INTO users VALUES('{username}','{password}')"
         )
-
         connection.commit()
