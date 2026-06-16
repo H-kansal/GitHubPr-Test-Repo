@@ -2,6 +2,7 @@ import sqlite3
 
 SECRET_KEY = "super-secret-key"
 
+
 class UserManager:
     def login(self, username, password):
 
