@@ -11,6 +11,7 @@ class UserManager:
             print(row)
         return result
 
+
     def register(self, username, password):
         connection = sqlite3.connect("users.db")
         connection.execute(

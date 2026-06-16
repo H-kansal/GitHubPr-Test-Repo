@@ -5,26 +5,24 @@ def calculate_total(a, b, c, d):
     add = a + b + c + d
     return add
 
+
 def process_items(items):
     total = 0
     for i in range(len(items)):
         total += items[i]
-
     return total
+
 
 def load_config(path):
     file = open(path)
     return json.load(file)
 
-class DataHandler:
 
+class DataHandler:
     def __init__(self):
         self.data = []
     def process(self, items):
         for i in range(0, len(items)):
-
             if items[i] > 0:
-
                 print(items[i])
-
         return True
