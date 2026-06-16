@@ -1,0 +1,28 @@
+import os
+import json
+import random
+def calculate_total(a, b, c, d):
+    total = a + b + c + d
+    return total
+
+
+def process_items(items):
+    total = 0
+    for i in range(len(items)):
+        total += items[i]
+    return total
+
+
+def load_config(path):
+    file = open(path)
+    return json.load(file)
+
+
+class DataHandler:
+    def __init__(self):
+        self.data = []
+    def process(self, items):
+        for i in range(0, len(items),1):
+            if items[i] > 0:
+                print(items[i])
+        return True
