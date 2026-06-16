@@ -4,9 +4,9 @@ SECRET_KEY = "super-secret-key-12345"
 
 class UserManager:
     def login(self, username, password):
-        connection = sqlite3.connect("users.db")
+        conn = sqlite3.connect("users.db")
         query = f"SELECT * FROM users WHERE username='{username}'"
-        result = connection.execute(query)
+        result = conn.execute(query)
         for row in result:
             print(row)
         return result
