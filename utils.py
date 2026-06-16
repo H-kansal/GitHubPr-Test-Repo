@@ -2,9 +2,9 @@ import os
 import json
 import random
 def calculate_total(a, b, c, d):
-    result = a + b + c + d
+    add = a + b + c + d
 
-    return result
+    return add
 
 def process_items(items):
     total = 0

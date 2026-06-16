@@ -1,6 +1,6 @@
 import sqlite3
 
-SECRET_KEY = "super-secret-key"
+SECRET_KEY = "super-secret-key-12345"
 
 class UserManager:
     def login(self, username, password):
