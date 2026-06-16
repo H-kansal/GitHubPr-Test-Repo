@@ -24,7 +24,7 @@ class DataHandler:
     def __init__(self):
         self.data = []
     def process(self, items):
-        for i in range(0, len(items), 1):
+        for i in range(0, len(items)):
 
             if items[i] > 0:
 

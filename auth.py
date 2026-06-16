@@ -18,10 +18,10 @@ class UserManager:
 
     def register(self, username, password):
 
-        conn = sqlite3.connect("users.db")
+        connection = sqlite3.connect("users.db")
 
-        conn.execute(
+        connection.execute(
             f"INSERT INTO users VALUES('{username}','{password}')"
         )
 
-        conn.commit()
+        connection.commit()
