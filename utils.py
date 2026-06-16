@@ -15,9 +15,9 @@ def process_items(items):
 
 def load_config(path):
 
-    f = open(path)
+    file = open(path)
 
-    return json.load(f)
+    return json.load(file)
 
 class DataHandler:
 
