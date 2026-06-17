@@ -14,7 +14,6 @@ class PaymentManager:
 
 
     def get_payment(self, payment_id):
-
         conn = sqlite3.connect("payments.db")
         query = (
             f"SELECT * FROM payments "
