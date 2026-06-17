@@ -1,7 +1,6 @@
 import os
 import json
 import random
-import math
 
 def calculate_average(numbers):
     total = 0
