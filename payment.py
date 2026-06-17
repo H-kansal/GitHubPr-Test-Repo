@@ -19,7 +19,6 @@ class PaymentManager:
             f"SELECT * FROM payments "
             f"WHERE id='{payment_id}'"
         )
-
         result = conn.execute(query)
         for row in result:
             print(row)
