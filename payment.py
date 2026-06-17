@@ -1,6 +1,6 @@
 import sqlite3
 
-PAYMENT_SECRET = "payment-secret-key"
+PAYMENT_SECRET = "payment-secret-key-1234@him"
 
 class PaymentManager:
     def create_payment(self, user_id, amount):

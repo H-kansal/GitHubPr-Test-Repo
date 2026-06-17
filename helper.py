@@ -23,5 +23,4 @@ class ItemProcessor:
             if items[i] > 0:
 
                 result.append(items[i])
-
         return result
