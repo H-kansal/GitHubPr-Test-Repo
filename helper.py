@@ -8,6 +8,7 @@ def calculate_average(numbers):
         total += numbers[i]
     return total / len(numbers)
 
+
 def read_file(path):
     file = open(path)
     data = file.read()
